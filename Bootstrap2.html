@@ -10,163 +10,139 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body >
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-3">
-        <div class="container-fluid ">
-           
-                
-          <a class="navbar-brand mx-5 ps-5" href="#">
-            <img src="Assets/aiglogo.jpg" alt="logo" width="80" height="80" >
-          </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 40%;">
-              
-                <li class="nav-item dropdown pe-3">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: rgb(13 53 148 / 90%);font-weight: 500;">
-                      All Products
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-              
-                <span>
-                  <li class="nav-item px-3">
-                    <a class="nav-link" aria-current="page" href="#" style="color: rgb(13 53 148 / 90%);font-weight: 500;">COVID-19 Assistance</a>
-                  </li>
-                </span>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="#" style="color: rgb(13 53 148 / 90%);font-weight: 500;">Claims</a>
-              </li>
-              
-              <li class="nav-item px-3">
-                <a class="nav-link" href="#" style="color: rgb(13 53 148 / 90%); font-weight: 500;">Support</a>
-              </li>
-
-              <span class="badge rounded-pill mt-2 px-4 pt-2" style="display:inline-block;background-color: rgb(232 233 237);color: rgb(13 53 148 / 90%);">
-                <img alt="self service icon" src="https://www.tataaig.com/user (2).svg"/>
-                Self Service
-               </span>
-            </ul>
-            
-          </div>
-        </div>
-    </nav>
-      
-    <div class="row bg-light  mx-5 px-3">
-        <div class="col-12 col-sm-12 col-md-12 mAlignCenter  ps-5 py-2">
-            <img class="rounded float-end" src="https://www.tataaig.com/s3/Group_10747_1_339cdc229b.svg" alt="agent img" height="80%" width="60%">
-            <h1 class=" pt-5" style="color: rgb(13 53 148 / 90%);">Become an Agent</h1>
-            <span style="color: rgb(7 30 84 / 80%);"><h5>By becoming an Insurance Agent, you can contribute towards your family’s financial prosperity and also have the opportunity to impact other people’s lives positively.</h5></span>
-        </div>
-    </div>
+    <header class="fixed-top" >
+        <nav class="navbar navbar-expand-lg navbar-light ">
+                <img src="./Tata AIG logo.png" class="rounded float-end tata-logo shadow" height="70" weight="70" alt="...">
     
-    <div class="col-md-12  mx-5 px-2 ">
-    <span class="fs-5  px-5" style="color: rgb(7 30 84 / 80%); font-weight:500;">Get associated with Tata AIG by sharing few of the contact details to get back:</span>
-    </div>
-    <div class="mx-5 px-5 py-5">
-    <form class=" row g-4 px-5 py-5" style="background-color: rgb(232 233 237); border-radius: 30px;">
+                <div class="collapse navbar-collapse navbar " id="nav1">
+                    <ul class="navbar-nav ms-auto  m-2 mb-lg-0">
+                        <li class="nav-item dropdown me-4">
+                            <a href="" class="nav-link dropdown-toggle fw-bold" style="color: #264a9f" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                All Products
+                            </a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a href="" class="nav-link fw-bold" style="color: #264a9f">Covid-19 Assistance</a>
+                        </li>
+                        
+                        <li class="nav-item me-4">
+                            <a href="" class="nav-link fw-bold" style="color: #264a9f">Claims</a>
+                        </li>
+                        
+                        <li class="nav-item me-4">
+                            <a href="" class="nav-link fw-bold" style="color: #264a9f">Support</a>
+                        </li>
+                        <button class="fw-bold btn bg-light border border-1 rounded-pill shadow bg-body rounded me-5" style="color: #264a9f">
+                          <i class="bi bi-person"></i>
+                          Self Service
+                        </button>
+                    </ul>
+    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h2 class="main-heading">Become an Agent</h2 class="main-heading">
+        <p class="about-main-heading">By becoming an Insurance Agent, you can contribute towards your family’s <br>
+             financial prosperity and also have the opportunity to impact other people’s <br>
+             lives positively.</p>
+        <img src="./tata-lady-photo.png" class="rounded float-end lady-photo" alt="...">
+    
+        <br><br><br><br><br>
+    
+        <div class=" get-associate mt-5 ">
+            Get associated with Tata AIG by sharing few of the contact details to
+            get back:
+          </div>
+    <div  class=" get-associate mt-5 ">
+     <form class="container mb-5 p-5 card form shadow">
 
       <h2 class="fs-4 fw-boulder" style="color: rgb(13 53 148 / 90%);">Details Required</h2>
         
-      <div class="col-md-4">
-        <label for="inputState" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Title</label>
-        <select id="inputState" class="form-select rounded-pill">
-          <option value="" disabled selected hidden>Title</option>
-        <option>Mr.</option>
-        <option>Ms.</option>
-         </select>
-    </div>
+      <div class="row">
+        <div class="form-group col-sm-4">
+          <label class="mb-2 label-input ms-4" for="title">Title</label>
+          <div class="border-0 w-100 css-container">
+            <div class="select-field__control title-div1">
+              <div class="select-field__value-container title-div2">
+                <div class="select-field__placeholder title-div3">Title</div>
+                <input class="title-input value readonly" type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
       
-      <div class="col-md-4">
-            <label for="First name" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">First Name</label>
-            <input type="text" class="form-control rounded-pill" placeholder="First name" aria-label="First name">
-        </div>
-        <div class="col-md-4">
-            <label for="Last name" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Last Name</label>
-            <input type="text" class="form-control rounded-pill" placeholder="Last name" aria-label="Last name">
-        </div>
-        <div class="col-md-4">
-          <label for="Number" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Phone Number</label>
-          <input type="number" class="form-control rounded-pill" id="Number" placeholder="Phone Number">
-        </div>
-        <div class="col-md-4">
-          <label for="Number" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Alternate Mobile Number</label>
-          <input type="number" class="form-control rounded-pill" id="Number" placeholder="Mobile Number">
-        </div>
-        <div class="col-md-4">
-          <label for="inputEmail4" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Email</label>
-          <input type="email" class="form-control rounded-pill" id="inputEmail4" placeholder="Email">
-        </div>
-        <div class="col-md-4">
-          <label for="inputCity" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">City</label>
-          <input type="text" class="form-control rounded-pill" id="inputCity" placeholder="City">
-      </div>
-      <div class="col-md-4">
-          <label for="inputState" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">State</label>
-          <select id="inputState" class="form-select rounded-pill">
-            <option value="" disabled selected hidden>Select</option>
-          <option>Choose...</option>
-          <option>...</option>
-           </select>
-      </div>
-      <div class="col-md-4">
-        <label for="inputState" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">New to Industry</label>
-        <select id="inputState" class="form-select rounded-pill"> 
-          <option value="" disabled selected hidden>Select</option>
-        <option>Yes</option>
-        <option>No</option>
-         </select>
-    </div>
-    <div class="col-md-4">
-      <label for="Current Company" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Current Company Working With</label>
-      <input type="text" class="form-control rounded-pill" placeholder="Current Company" aria-label="Current Company">
-  </div>
-  <div class="col-md-4">
-    <label for="Job Type" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Job Type</label>
-    <select id="Job Type" class="form-select rounded-pill">
-      <option value="" disabled selected hidden>Select</option>
-    <option>Full Time</option>
-    <option>Part Time</option>
-     </select>
-</div>
+        <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="firstName">First Name</label>
+            <input class="form-input" type="text" name="First Name" placeholder="First Name"/>
+          </div>
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="lastName">Last Name</label>
+            <input class="form-input" type="text" name="Last Name" placeholder="Last Name"/>
+          </div>
 
-<div class="col-md-4">
-  <label for="Associated" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Are You Associated With</label>
-  <select id="Associated" class="form-select rounded-pill">
-    <option value="" disabled selected hidden>Select</option>
-  <option>Mutual Fund</option>
-  <option>Life Insurance</option>
-  <option>General Insurance</option>
-   </select>
-</div>
-<div class="col-md-4">
-  <label for="Business" class="form-labe mx-3" style="font-size: 14px; font-weight: 100;"">Line of Business</label>
-  <select id="Business" class="form-select rounded-pill">
-    <option value="" disabled selected hidden>Select</option>
-  <option>Travel</option>
-  <option>Motor</option>
-  <option>Health</option>
-   </select>
-</div>
-<div class="col-md-4">
-  <label for="Potential" class="form-label mx-3" style="font-size: 14px; font-weight: 100;">Annual Business Potential</label>
-  <select id="Potential" class="form-select rounded-pill">
-    <option value="" disabled selected hidden>Select</option>
-  <option>0-6 Lakhs</option>
-  <option>6-12 Lakhs</option>
-  <option>12-30 Lakhs</option>
-  <option>30-60 Lakhs</option>
-  <option>more than 60 Lakhs</option>
-   </select>
-</div>
-    <div class="col-12">
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="phoneNumber">Phone Number</label>
+            <input class="form-input" type="text" name="Phone Number" placeholder="Phone Number"/>
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="mobileName">Alternate Mobile Number</label>
+            <input class="form-input" type="text" name="Mobile Number" placeholder="Mobile Number"/>
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="email">Email</label>
+            <input class="form-input" type="text" name="Email" placeholder="Email"/>
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="city">City</label>
+            <input class="form-input" type="text" name="City" placeholder="City"/>
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="state">State</label>
+            <input class="form-input" type="text" name="State" placeholder="Select"/>
+            <p class="select-arrow">&#9660</p>
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="industry">New To Industry</label>
+            <input class="form-input" type="text" name="Industry" placeholder="Select"/>
+            <p class="select-arrow">&#9660</p>
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="currentComapany">Current Company Working With</label>
+            <input class="form-input" type="text" name="Current Company" placeholder="Current Company"
+            />
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="jobType">Job Type</label>
+            <input class="form-input" type="text" name="Job Type" placeholder="Select"/>
+            <p class="select-arrow">&#9660</p>
+          </div>
+
+          <div class="form-group col-sm-4">
+            <label class="mb-2 label-input ms-4" for="associatedWith">Are You Associated With</label>
+            <input class="form-input" type="text" name="Are You Associated With" placeholder="Select"/>
+            <p class="select-arrow">&#9660</p>
+          </div>
+
+          <div class="dynamic_formgrp col-sm-4">
+            <label class="mb-2 label-input ms-4" for="lineOfBusiness">Line Of Business</label>
+            <input class="form-input" type="text" name="Line Of Business" placeholder="Select"/>
+            <p class="select-arrow">&#9660</p>
+          </div>
+
+          <div class="dynamic_formgrp col-sm-4">
+            <label class="mb-2 label-input ms-4" for="annualPotential">Annual Business Potential</label>
+            <input class="form-input" type="text" name="Annual Business Potential" placeholder="Select"/>
+            <p class="select-arrow">&#9660</p>
+          </div>
+    <div class="col-12" style="margin-top: 25px;">
             <button type="submit" class="btn btn-primary rounded-pill">Proceed</button>
             <br>
             <label for="submit" class="form-label " style="font-size: 12px; font-weight: 100;">By clicking proceed, I agree to override my DNCR</label>
@@ -174,95 +150,137 @@
     </form>
   </div>
 
-  <div class="py-5" style="background-color: rgb(232 233 237);" >
-    <h1 class="fs-2 fw-bold text-center" style="color: rgb(13 53 148 / 90%);">Why You Should Join Tata AIG</h1>
-  </div>
-
-  <div class="px-5" style="display:flex; height: 200px; background-color: rgb(232 233 237);" >
-
-    <div class="card col-3" style="background-color: rgb(232 233 237); border-top: none; border-left: none;">
-      <img src="https://www.tataaig.com/s3/001_verified_06addff7a2.svg" width="50px" height="50px" class="card-img-top" alt="...">
-      <div class="card-body" >
-        <p class="card-text">Secure your customers with India’s most trusted brand, Tata AIG</p>
-      </div>
-    </div>
-    <div class="card col-3" style="background-color: rgb(232 233 237);border-top: none;">
-      <img src="https://www.tataaig.com/s3/Group_13820_d10fd32bdb.svg" width="50px" height="50px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">At Tata AIG we keep our values first i.e. PEOPLE, EMPATHY, INTEGRITY, CUSTOMER FIRST</p>
-      </div>
-    </div>
-    <div class="card col-3" style="background-color: rgb(232 233 237);border-top: none;">
-      <img src="https://www.tataaig.com/s3/Group_13823_ed0b1c2869.svg" width="50px" height="50px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">You can look for long term association and growth in your career</p>
-      </div>
-    </div>
-    <div class="card col-3" style="background-color: rgb(232 233 237);border-top: none; border-right: none;">
-      <img src="https://www.tataaig.com/s3/Group_13824_2128ec5b97.svg" width="50px" height="50px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Great earning opportunity along with recognition for your hard work</p>
-      </div>
-    </div>
-  </div>
-  
-      
-
-
-  <div class="container-fluid px-0">
-    <div class="row" style="background-color:#18478b">
-     <div class="container">
-      <div class="mt-3 border-bottom text-white" style="font-size: smaller;">
-       <div class=" py-3 text-center" style="overflow:hidden">
-        <div>
-         <a class=" px-2 text-white" href="https://www.tataaig.com/disclaimers" rel="noreferrer" target="_self">
-          Disclaimer
-         </a>
-         <a class=" px-2 text-white border-right" href="https://www.tataaig.com/terms-of-use" rel="noreferrer" target="_self">
-          Terms of Use
-         </a>
-         <a class=" px-2 text-white border-right" href="https://www.tataaig.com/downloads" rel="noreferrer" target="_self">
-          Downloads
-         </a>
-         <a class=" px-2 text-white border-right" href="https://www.irdai.gov.in/" rel="noreferrer" target="_blank">
-          IRDAI
-         </a>
-         <a class=" px-2 text-white border-right" href="https://www.tataaig.com/gst-registration" rel="noreferrer" target="_self">
-          GST Registration Numbers
-         </a>
-         <a class=" px-2 text-white border-right" href="https://www.tataaig.com/privacy-policy" rel="noreferrer" target="_self">
-          Privacy Policy
-         </a>
-         <a class=" px-2 text-white border-right" href="https://www.tataaig.com/grievance-redressal-policy" rel="noreferrer" target="_self">
-          Grievance Redressal Policy
-         </a>
-         <a class=" px-2 text-white border-right" href="https://www.tataaig.com/general" rel="noreferrer" target="_self">
-          General
-         </a>
+  <div class="text-center join-tata-aig ">
+    <h2 class="h2 me-md-4 main-heading mb-5 pt-5">
+        Why Should You join Tata AIG
+    </h2>
+    <div class="row small">
+        <div class="col-lg-3 border-right">
+            <div class="col-lg-3 rounded-circle img-1">
+              <img src="https://www.tataaig.com/s3/001_verified_06addff7a2.svg" width="25px" height="45px" class="card-img-top" alt="...">
+            </div>
+            <p class="mt-4">Secure your customers with India’s most trusted brand, Tata AIG</p>
         </div>
-       </div>
-       <hr width="80%" style="margin-left: 10%; border-top: 2px; border-style: dotted;">
-       <div class=" text-white text-center" style="font-size: smaller;">
-        <p>
-         2008, Tata AIG General Insurance Company Limited, all rights reserved.
-         <br/>
-         Registered Office : Peninsula Business Park, Tower A, 15th Floor, G.K.Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India. CINNumber : U85110MH2000PLC128425.
-         <br/>
-         Registered with IRDA of India Regn. No. 108. Category of Certificate of Registration: General Insurance. Insurance is the subject matter of the solicitation.
-         <br/>
-         For more details on benefits, exclusions, limitations, terms and conditions, please read sales brochure / policy wording carefully before concluding a sale.
-         <br/>
-         Toll Free Number : 1800 266 7780 / 1800 22 9966 (only for senior citizen policy holders). Email Id –
-         <a href="https://www.tataaig.com/agent-registrationmailto:customersupport@tataaig.com">
-          customersupport@tataaig.com
-         </a>
-         .
-        </p>
-       </div>
+        <div class="join-tata-aig-line float-start "></div>
 
-  <!-- footer end -->
+        <div class="col-lg-3 border-right">
+            <div class="col-lg-3 rounded-circle img-2">
+              <img src="https://www.tataaig.com/s3/Group_13820_d10fd32bdb.svg" width="25px" height="45px" class="card-img-top" alt="...">
+            </div>
+            <p class="mt-4">At Tata AIG we keep our values first i.e. PEOPLE, EMPATHY, INTEGRITY, CUSTOMER FIRST</p>
+        </div>
+        <div class="join-tata-aig-line float-start "></div>
 
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+
+        <div class="col-lg-3 border-right">
+            <div class="col-lg-3 rounded-circle img-3 ">
+              <img src="https://www.tataaig.com/s3/Group_13823_ed0b1c2869.svg" width="25px" height="45px" class="card-img-top" alt="...">
+            </div>
+            <p class="mt-4">You can look for long term association and growth in your career
+            </p>
+        </div>
+        <div class="join-tata-aig-line float-start "></div>
+
+        <div class="col-lg-3 border-right earning">
+            <div class="col-lg-3 small rounded-circle img-4">
+              <img src="https://www.tataaig.com/s3/Group_13824_2128ec5b97.svg" width="20px" height="45px" class="card-img-top" alt="...">
+            </div>
+            <p class="mt-4">Great earning opportunity along with recognition for your hard work</p>
+        </div>
+    </div>
+</div><br><br><br>
+  <h3 class="main-heading">What Tata AIG offers you?</h3>
+  <ul class="ms-0 ps-2 mb-5 mt-4 tata-list">
+      <li class="mb-4 small">
+          <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+         <span> Learning opportunity for you with our exclusive Tata AIG Academy which</span> <br>
+             <span>helps you to enhance your skills</span></li>
+      <li class="mb-4 small">
+          <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+         <span> Claim servicing in need is what customer buys & at Tata AIG customer </span> <br>
+         <span> claim are serviced by an experienced in-house claims management team </span></li>
+      <li class="mb-4 small">
+          <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+        <span>  Comprehensive product solutions – Motor , Health, Travel & Corporate risk </span><br>
+          <span> solutions </span></li>
+      <li class="small">
+          <img src="./check-bullets-image.png" class="rounded float-start check-bullets" alt="...">
+         <span> Business development support and handhold at each progressive step </span></li>
+  </ul>
+  <img src="./tata-men-photo.png" class="rounded float-end men-photo" alt="...">
+
+  <br><br><br><br>
+  <div class="contact-div container shadow ">
+    <img src="./Tata AIG logo.png" class="rounded float-start tata-logo-bottom shadow" alt="...">
+    <p class="download small mt-5 float-start">Download Our App</p>
+    <img src="./google-play-logo.png" class="rounded float-start google-play" alt="...">
+    <p class="follow-us small mt-5 float-start">Follow Us</p>
+    <p class=" float-start  social-media facebook"><i class="bi bi-facebook"></i></p>
+    <p class=" float-start social-media linkedin"><i class="bi bi-linkedin"></i></p>
+    <p class=" float-start social-media twitter"><i class="bi bi-twitter"></i></p>
+    <p class=" float-start social-media instagram  "><i class="bi bi-instagram"></i></p>
+    <p class=" float-start social-media youtube"><i class="bi bi-youtube"></i></p>
+    <ul class="tata-company-list">
+        <li class="mb-4 tata-list-heading">Company</li>
+        <li class="small tata-list-subheading">About Us</li>
+        <li class="small tata-list-subheading">Public Disclosures</li>
+        <li class="small tata-list-subheading">Contact Us</li>
+        <li class="small tata-list-subheading">Careers</li>
+        <li class="small tata-list-subheading">Agent Registration</li>
+    </ul>
+
+    <ul class="tata-resouces-list">
+        <li class="mb-4 tata-list-heading">Resouces</li>
+        <li class="small tata-list-subheading">Blog</li>
+        <li class="small tata-list-subheading">Insurance FAQs</li>
+    </ul>
+
+    <ul class="tata-services-list">
+        <li class="mb-4 tata-list-heading">Renewals</li>
+        <li class="small tata-list-subheading">Self Service</li>
+        <li class="small tata-list-subheading">Vehicle Inspection</li>
+    </ul>
+  </div><br>
+  <div class="insurance-div container shadow ">
+    <span class="ms-5 me-5 mt-2 float-start" >Health Insurance</span>
+    <hr class="float-start"> 
+    <span class="ms-5 me-5 mt-2 float-start" >Motor Insurance</span>
+    <hr class="float-start"> 
+    <span class="ms-5 me-5 mt-2 float-start" >Travel Insurance</span>
+    <hr class="float-start"> 
+    <span class="ms-5 me-5 mt-2 float-start" >Other Insurance</span> 
+    <button class="insurance-button ms-5">&#9660</button>
+  </div>
+
+<br><br>
+<div class="dl"> <div class="footer-div px-5 text-center"><br>
+    <a href="#" class="footer-about link-light ms-0 text-decoration-none small ">Disclaimer</a>
+    <span class="ms-3 text-light">|</span>
+    <a href="#" class="footer-about link-light ms-3 text-decoration-none small"> Terms of Use</a>
+    <span class="ms-3 text-light">|</span>
+    <a href="#" class="footer-about link-light ms-3 text-decoration-none small"> Downloads </a>
+    <span class="ms-3 text-light">|</span>
+    <a href="#" class="footer-about link-light ms-3 text-decoration-none small"> IRDAI</a>
+    <span class="ms-3 text-light">|</span>
+    <a href="#" class="footer-about link-light ms-3 text-decoration-none small"> GST Registration Number</a>
+    <span class="ms-3 text-light">|</span>
+    <a href="#" class="footer-about link-light ms-3 text-decoration-none small"> Privacy Policy</a>
+    <span class="ms-3 text-light">|</span>
+    <a href="#" class="footer-about link-light ms-3 text-decoration-none small"> Grievance Redressal Policy</a>
+    <span class="ms-3 text-light">|</span>
+    <a href="#" class="footer-about link-light ms-3 text-decoration-none small"> General</a>
+    <br><br>
+</div>
+   <hr class="footer-line text-light">
+
+   <div class="footer-div border-bottom   ps-5 pe-5"> <br>
+       <p class="footer-about text-center text-light">2008, Tata AIG General Insurance Company Limited, all rights reserved.</p>
+       <p class="footer-about text-center text-light"> Registered Office : Peninsula Business Park, Tower A, 15th Floor, G.K.Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India. CINNumber : U85110MH2000PLC128425.</p>
+    <p class="footer-about text-center text-light"> Registered with IRDA of India Regn. No. 108. Category of Certificate of Registration: General Insurance. Insurance is the subject matter of the solicitation.</p>
+     <p class="footer-about text-center text-light">   For more details on benefits, exclusions, limitations, terms and conditions, please read sales brochure / policy wording carefully before concluding a sale.</p>
+     <p class="footer-about text-center pb-2 text-light">   Toll Free Number : 1800 266 7780 / 1800 22 9966 (only for senior citizen policy holders). Email Id – customersupport@tataaig.com.</p>
+    
+</div></div>
+   
 </body>
 </html>
